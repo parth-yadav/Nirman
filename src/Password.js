@@ -37,7 +37,7 @@ function Password() {
   },[len,num,char]);
 
   return (
-    <div className=" px-3 outline  bg-slate-600 py-3 ">
+    <div className="w-96 px-3 outline  bg-slate-600 py-3 ">
       <input
         className="rounded-xl w-full  px-1 mb-2 "
         type="text"

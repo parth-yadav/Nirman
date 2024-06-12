@@ -17,9 +17,9 @@ function Counter() {
   };
   return (
     <div>
-        <div className="flex flex-col items-center justify-center ">
+       
         <div
-          className="flex  space-x-4  bg-slate-500"
+          className="  flex-row flex w-96"
           style={{ backgroundColor: col }}
         >
           <button
@@ -32,7 +32,7 @@ function Counter() {
           <button
             // onClick={() => setCol("rgb(147 197 253)")}
             onClick={addValue}
-            className="bg-green-300 rounded-full h-20 w-20 "
+            className="bg-green-300 rounded-full h-20 w-20  "
           >
             
             increase
@@ -45,11 +45,12 @@ function Counter() {
             onClick={() => setCol("rgb(253 224 71)")}
             className="bg-yellow-300 rounded-full h-20 w-20 border border-white "
           ></button>
-          <div className="text-black text-4xl font-extrabold text-pretty ">
+          <div className=" rounded-xl h-10 bg-white  text-black text-4xl font-extrabold text-pretty ">
             {num}
           </div>
         </div>
-      </div>
+    
+      
     </div>
   )
 }

@@ -5,16 +5,17 @@ import Password from "./Password";
 
 function App() {
   return (
-    <div className="min-h-screen grid grid-cols-3">
+    
       
-      <div className="col-span-2 flex flex-col items-center">
-        <Counter />
-        <div className="h-20 flex"></div>
-        <div className="text-xl">password generator</div>
-        <Password />
-      </div>
+    <div className="flex flex-col items-center justify-center">
+    <Counter />
+    <div className="h-20 flex"></div>
+    <div className="text-xl text-center">Password Generator</div>
+    <Password />
+  </div>
+  
       
-    </div>
+    
   );
 }
 
